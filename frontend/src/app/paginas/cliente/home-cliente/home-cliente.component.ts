@@ -1,10 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core'
+
+import { ActivatedRoute } from '@angular/router';
 import { ClienteService } from '../../../services/cliente.service';
-import { MilhasService } from '../../../services/milhas.service';
-import { ReservaService } from '../../../services/reserva.service';
 import { Cliente } from '../../../models/cliente.model';
 import { Reserva } from '../../../models/reserva.model';
-import { ActivatedRoute } from '@angular/router';
+import { MilhasService } from '../../../services/milhas.service';
+import { ReservaService } from '../../../services/reserva.service';
 
 @Component({
   selector: 'app-home-cliente',
